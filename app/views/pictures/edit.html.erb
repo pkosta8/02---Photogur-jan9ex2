@@ -4,6 +4,8 @@
   <%= link_to("Back", "/pictures/#{@picture.id}") %>
 </p>
 
+
+
 <%= form_for(@picture, url: "/pictures/#{@picture.id}") do |f| %>
   <p>
     <%= f.label :artist %><br>
